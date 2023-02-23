@@ -1,0 +1,91 @@
+*{
+    color: aliceblue;
+    font-family: 'Shadows Into Light', cursive;
+    font-weight: bold;
+    font-size: 1.07em;
+}
+h1{
+    text-align: center;
+    font-size: 1.18em;
+    margin-bottom: 10px;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container {
+    width: 90vw;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.box{
+    margin-bottom: 15px;
+}
+.item {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+    height: 120px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.style1 {
+    background-color: rgba(238, 56, 24, 0.4);
+}
+
+.style2 {
+    background-color: rgba(123, 104, 238, 0.4); 
+}
+.style3 {
+    background-color: rgba(46, 139, 87, 0.4);
+  }
+  
+  .style4 {
+    background-color: rgba(255, 165, 0, 0.4);
+  }
+
+.style1:hover, .style2:hover, .style3:hover, .style4:hover{
+    background-color: rgba(238, 231, 231, 0.2);
+}
+.style1, .style2, .style3, .style4{
+    border-radius: 5px;
+    cursor: pointer;
+    border-color: aliceblue;
+    border-width: 5px;
+}
+
+.search-box{
+    width: 90vw;
+    margin-top:1em ;
+    margin-bottom: 1em;
+}  
+#search{
+    background-color: rgba(0,0,0,0.4);
+    border-width: 0;
+    color: aliceblue;
+    width: 86vw;
+    height: 2.1vw;
+}
+.clear{
+    background-color: rgba(0,0,0,0.4);
+    border-width: 0;
+    color: aliceblue;
+    height: 2.1vw;
+    width: 2.1vw;
+    cursor: pointer;
+}
+.clear:hover, #search:hover{
+    background-color: rgba(255, 255, 255, 0.3);
+}
+input:focus {
+    outline: none;
+  }
+  

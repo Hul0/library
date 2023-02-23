@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&family=Shadows+Into+Light&display=swap');
+
+*{
+    font-family: 'Shadows Into Light', cursive;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 1.18em;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Shadows Into Light', cursive;
+    color: aliceblue;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+button{
+    height: 2.5em;
+    width: 6em;
+    margin: 15px 15px 15px 15px;
+    background-color: rgba(0,0,0,0.4);
+    border-width: 0px;
+}
+button:hover{
+    background-color: rgba(222, 225, 228,0.2);
+    cursor: pointer;
+}
